@@ -3,7 +3,7 @@ import {Img} from "./views/ImgData.tsx";
 
 function App() {
   return (
-    Img()
+    <Img />
   )
 }
 
