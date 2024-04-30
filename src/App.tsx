@@ -16,7 +16,7 @@ function SetHide({isHide, setHide}: IsHideProps) {
     }
 
     return (
-        <button onClick={handleIsHide}>点击查看</button>
+        <button onClick={handleIsHide}>点击切换</button>
     )
 }
 
