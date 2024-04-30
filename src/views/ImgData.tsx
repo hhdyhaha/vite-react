@@ -1,5 +1,5 @@
 function ImgData({ imgUrl1, imgUrl2, isHide}:{imgUrl1:string, imgUrl2:string, isHide:boolean}) {
-    if(isHide) {
+    if(!isHide) {
         return <img src={imgUrl1} alt="这是一张图片" width={200}/>
     }else {
         return <img src={imgUrl2} alt="这是一张图片" width={200}/>
