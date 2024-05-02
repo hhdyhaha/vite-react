@@ -29,7 +29,6 @@ function App() {
             {/*分别传递三个参数，而不是包裹成对象*/}
             <Img imgUrl1={imgUrl1} imgUrl2={imgUrl2} isHide={isHide}/>
             <div>
-                haha
                 <hr/>
                 <SetHide isHide={isHide} setHide={setHide}/>
             </div>
