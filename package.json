@@ -10,11 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "antd": "^5.16.4",
+    "@reduxjs/toolkit": "^2.2.5",
+    "antd": "^5.17.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "redux": "^5.0.1",
+    "stylus": "^0.63.0",
+    "use-immer": "^0.9.0"
   },
   "devDependencies": {
+    "@types/antd": "^1.0.0",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
@@ -24,7 +30,6 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "sass": "^1.75.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
