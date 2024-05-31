@@ -24,6 +24,7 @@ export const themeSlice = createSlice({
         setDark: (state, action) => {
             // 修改了store分库里dark的值（用于让全项目动态生效）
             state.dark = action.payload
+            console.log('action',action)
             // 更新localStorage的主题配置（用于长久保存主题配置）
             window.localStorage.setItem(globalConfig.SESSION_LOGIN_THEME, JSON.stringify(state))
         },
